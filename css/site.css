@@ -20,6 +20,7 @@ main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
+
 .checklist >li i{
     color: var(--secondary-color);
 }
@@ -54,4 +55,16 @@ footer .social>a:hover {
     color: #264de4;
 }
 
-
+.logoFont {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bodyText {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bodyColor {
+    color: #292929;
+}

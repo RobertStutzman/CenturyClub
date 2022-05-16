@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>APP NAME: A Coding Project By Robert Stutzman</title>
+    <title>Century Club: A Coding Project By Robert Stutzman</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,6 +13,15 @@
      <link rel="stylesheet" href="/css/site.css">
      <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
      <script src="https://kit.fontawesome.com/298818b391.js" crossorigin="anonymous"></script>
+          <!--Roboto Flex Font-->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Flex:opsz,wght@8..144,100&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+      
+          <!--Oswald Font-->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
     
 </head>
 
@@ -20,7 +29,7 @@
     <!--Nav Section-->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="/img/RSlogo.svg" class="d-inline-block align-text-top" alt="RS logo" width="30" height="24"> APP NAME</a>
+        <a class="navbar-brand" href="#"> <img src="/img/RSlogo.svg" class="d-inline-block align-text-top" alt="RS logo" width="30" height="24"> Century Club</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,7 +56,41 @@
     </div>
 </nav>
 <main class="flex-shrink-0">
-    <div class="container col-xxl-8 px-4 py-5">
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col-lg-4 col border-end border-2">
+                <h1 class="fontLogo display-5 bodyColor bodyLogo border-bottom border-2">Century Club: A Coding Project</h1>
+                <h4 align="justify" class="lead bodyColor bodyText">Live life one loop at a time. A javascript coding exercise using loops. Write a program that displays the number from 0 to 100. Display the even numbers in <strong class="fw-bold">BOLD</strong>.</h4>
+                <h2 class="mg-5 border-bottom border-1 bodyColor fontLogo display-5 bodyLogo" align="justify">Instructions</h2>
+                <h4 class="lead bodyText bodyColor">Enter a starting value and an ending value. Press the button and values will appear!</h4>
+            </div>
+            <div class="col-lg-8 col">
+                <div>
+                    <h5 class="display-5 fontLogo bodyColor border-bottom border-2">Enter Values</h5>
+                    <form class="row gy-2 gx-3">
+                        <div class="col">
+                            <input type="number" id="startValue" class="form-control" placeholder="Start Value" value= 0 aria-label="Start Value">
+                        </div>
+                        <div class="col">
+                            <input type="number" id="endValue" class="form-control" placeholder="End Value" value= 100 aria-label="End Value">
+                        </div>
+                        <div class="col-12 d-flex justify-content-end">
+                            <button type="button" id="btnSubmit" class="btn btn-outline-dark btn-lg textBody">Display Numbers</button>
+                        </div>
+                    </form>
+                    <h2 class="display-5 bodyColor bodyLogo mt-5 border-bottom border-2">Result</h2>
+                    <div class="table-responsive">
+                       <table class="table table-striped table-sm">
+                           <!--JavaScript UI will generate the information inside of here-->
+                       </table>               
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12">
+
+            </div>
+        </div>
     </div>
 </main>
 <!--Footer Section-->
