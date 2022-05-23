@@ -29,7 +29,7 @@
     <!--Nav Section-->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="/img/RSlogo.svg" class="d-inline-block align-text-top" alt="RS logo" width="30" height="24"> Century Club</a>
+        <a class="navbar-brand logoFont" href="#"> <img src="/img/RSlogo.svg" class="d-inline-block align-text-top" alt="RS logo" width="30" height="24"> Century Club</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
     <div class="container mt-5">
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="col-lg-4 col border-end border-2">
-                <h1 class="fontLogo display-5 bodyColor bodyLogo border-bottom border-2">Century Club: A Coding Project</h1>
+                <h1 class="fontLogo display-5 bodyColor border-bottom border-2">Century Club: A Coding Project</h1>
                 <h4 align="justify" class="lead bodyColor bodyText">Live life one loop at a time. A javascript coding exercise using loops. Write a program that displays the number from 0 to 100. Display the even numbers in <strong class="fw-bold">BOLD</strong>.</h4>
                 <h2 class="mg-5 border-bottom border-1 bodyColor fontLogo display-5 bodyLogo" align="justify">Instructions</h2>
                 <h4 class="lead bodyText bodyColor">Enter a starting value and an ending value. Press the button and values will appear!</h4>
@@ -117,6 +117,10 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="/js/site.js"></script>
+    <script>
+        document.getElementById("btnSubmit").addEventListener("click",getValues);
     </script>
 </body>
 </html>
